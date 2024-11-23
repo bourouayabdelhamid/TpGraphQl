@@ -1,0 +1,71 @@
+/* General app styles */
+.App {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #3f51b5;
+}
+
+/* Container for AddCompte form */
+.add-compte-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+/* Accounts section styles */
+.accounts-section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #3f51b5;
+}
+
+/* Accounts list container */
+.accounts-list-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Account details section styles */
+.compte-details-section {
+  margin-top: 40px;
+}
+
+.compte-details-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for accounts list items (optional) */
+.account-item:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Responsive design: make sure it's mobile-friendly */
+@media (max-width: 768px) {
+  .add-compte-container, .accounts-list-container, .compte-details-container {
+    margin-bottom: 20px;
+  }
+
+  .header {
+    margin-bottom: 20px;
+  }
+}

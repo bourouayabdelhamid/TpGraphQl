@@ -1,0 +1,80 @@
+/* Form Container */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Field */
+  .form-field {
+    margin-bottom: 16px;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .form-field input,
+  .form-field select {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-field input:focus,
+  .form-field select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.3);
+    outline: none;
+  }
+  
+  /* Button */
+  .button {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .button:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    background: #1c5980;
+  }
+  
+  /* Error Message */
+  .error-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #e74c3c;
+    text-align: center;
+  }
+  
